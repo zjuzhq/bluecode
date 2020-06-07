@@ -104,7 +104,16 @@
         }
     }
 
-</script></head>
+</script>
+<script>
+    function gen(){
+        document.getElementById('btn').style.display="none";
+        document.getElementById('username').innerText='郑琪'
+    }
+
+</script>
+
+</head>
 
 
 
@@ -123,7 +132,7 @@
 
 <div class="content-box">
     <div class="top-title">
-        <h3><input "placeholder"="名字"></input>的通行码</h3>
+        <h3><h3 id='username'></h3>的通行码</h3>
         
 
             <span class="bgr-blue">研究生</span>
@@ -176,6 +185,7 @@
     <a href="http://xwfw.zju.edu.cn/mobile/redir.php?catalog_id=371039" target="_blank" class="link-btn">常见问题</a>
     <h3>技术支持：0571-87951669</h3>
 </div>
+<button id='btn'>生成</button>
 
 
 </body></html>
