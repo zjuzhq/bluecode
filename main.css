@@ -6,13 +6,13 @@ body {
 	font-family:"Microsoft YaHei";
 }
  input:-moz-placeholder, textarea:-moz-placeholder {
- color: #f00;
+ color: #999;
 }
  input:-ms-input-placeholder, textarea:-ms-input-placeholder {
- color: #f00;
+ color: #999;
 }
  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
- color: #f00;
+ color: #999;
 }
 ol, ul, li {
 	padding-left: 0em;
